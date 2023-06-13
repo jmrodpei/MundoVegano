@@ -1,0 +1,391 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body { 
+  
+  
+}
+.Portada {
+     width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.margen_carrusel{
+    margin-top: 50px;
+}
+
+.circular {
+  border-top-left-radius: 0% 0%;
+  border-top-right-radius: 0% 0%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.nav-item a{
+    font-family: 'Domine', serif;
+   font-size: 20px;
+   
+}
+
+.letra1  {
+  font-family: 'Domine', serif;  
+    
+}
+
+.letra2  {
+ font-family: 'Domine', serif;  
+ font-size: 20px;
+}
+.letra3  {
+ font-family: 'Pacifico', cursive;
+ font-size: 50px;
+ color: white;
+ padding: 40px
+}
+.letra4  {
+ font-family: 'Pacifico', cursive;
+ font-size: 50px;
+ padding: 40px
+}
+.letra5 
+{
+font-family: 'Pacifico', cursive;    
+}
+.display-4
+{
+ font-family: 'Pacifico', cursive;
+ font-size: 60px;   
+}
+.btn-group button{
+    font-family: 'Domine', serif; 
+}
+.card-body button,h1,h4,small,p{
+    font-family: 'Domine', serif; 
+}
+.blog-post {
+  font-family: 'Domine', serif;   
+
+}
+.display-4 a{
+  font-family: 'Domine', serif;   
+
+}
+.mb-0 a{
+  font-family: 'Domine', serif;   
+
+}
+.text-white{
+   font-family: 'Domine', serif;    
+}
+.p-4{
+     font-family: 'Domine', serif;
+     
+}
+.container-text form{
+    font-family: 'Domine', serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+
+}
+
+.colum1 p{
+    font-family: 'Domine', serif;
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row1{
+    font-family: 'Domine', serif;
+    margin-top: 20px;
+    display: flex;
+}
+
+.row1 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row1 label{
+    font-family: 'Domine', serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    font-family: 'Domine', serif;
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    font-family: 'Domine', serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    font-family: 'Domine', serif;
+    color: #C7C7C7;
+}
+
+.copyright a{
+    font-family: 'Domine', serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    font-family: 'Domine', serif;
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+#cartel {
+    height: auto;
+      
+}
+#imagenFinal{
+    
+ float: none;
+ margin-top: 20px;
+ margin-bottom: 80px;
+ width: 100%;
+}
+#modificacion {
+    width: 100%;
+    flex-wrap: wrap;
+    
+    
+}
+
+    @media (min-width: 576px) 
+{ 
+#delicioso
+{
+ align-items: center; 
+ flex-wrap: wrap;
+ }  
+    
+#cartel{
+ display: none;
+ }
+#mariposa{
+float: none;
+margin-top:50px;
+width: 100%;
+flex-wrap: wrap;
+ } 
+#cabeceraMariposa{
+float:none;
+margin-top: 50px;
+margin-bottom: 30px;
+}  
+ #textoMariposa{
+float:none;
+margin-top: 50px;
+margin-bottom: 50px;
+ }
+}
+#imagenReceta{  
+    width: 100%;
+    flex-wrap: wrap;
+}
+#imagenRecetaEspecial{
+ width: 120%;
+flex-wrap: wrap;
+}
+#modificacion {
+    width: 50%;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    
+}
+#imagenFinal{
+    width: 100%;
+    flex-wrap: wrap;
+}
+#imagenFinal2{
+    width: 60%;
+}
+
+
+    @media (min-width: 768px) 
+{
+ #mariposa{
+ float: none;
+margin-top: 130px;  
+width: 170%;   
+}
+#cabeceraMariposa{
+  float: none;
+margin-top: 10px;
+margin-bottom: 60px;
+    
+}
+#textoMariposa{
+ float: none;
+ margin-top: 20px;
+ text-align: left;
+ margin-bottom: 80px;
+ flex-wrap: wrap;   
+}
+#modificacion {
+    width: 50%;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+}
+    @media (min-width: 992px) 
+{
+#mariposa{
+ float: none;
+margin-top: 130px;  
+width: 170%;   
+}
+#cabeceraMariposa{
+  float: none;
+margin-top: 150px;
+margin-bottom: 60px;
+    
+}
+#textoMariposa{
+ float: none;
+ margin-top: 20px;
+ text-align: left;
+ margin-bottom: 80px;
+ flex-wrap: wrap;   
+}
+
+#samosas{
+    
+ width: 70%;
+ height: 70%;   
+}
+#imagenFinal{
+    width: 60%;
+    
+}
+#imagenFinal2{
+    width: 100%;
+}
+}
+    @media (min-width: 1200px) 
+{
+#mariposa{
+ float: none;
+margin-top: 130px;  
+width: 170%;   
+}
+#cabeceraMariposa{
+  float: none;
+margin-top: 200px;
+margin-bottom: 60px;
+    
+}
+#textoMariposa{
+ float: none;
+ margin-top: 0px;
+ text-align: left;
+ 
+}
+#imagenFinal{
+    width: 60%;
+}
+#imagenFinal2{
+    width: 30%;
+}
+}
+
+    @media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
+
